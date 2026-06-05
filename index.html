@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <header>
-        Logo
-    </header>
+<header class="flex items-center justify-between p-4 bg-white shadow">
+
+ 
+  <div class="text-xl font-bold">MySite</div>
+
+  <nav class="flex gap-6">
+  <a href="index.html" class="hover:text-blue-500">Home</a>
+  <a href="about.html" class="hover:text-blue-500">About</a>
+  <a href="contact.html" class="hover:text-blue-500">Contact</a>
+</nav>
+
+
+  <div class="flex items-center gap-4">
+
+ 
+    <input type="text" placeholder="Search..."
+      class="border px-2 py-1 rounded">
+
+   
+    <img src="./image.all/shopping-cart.svg" class="w-6 h-6">
+
+   
+    <button class="bg-blue-500 text-white px-3 py-1 rounded">
+      Login
+    </button>
+
+  </div>
+  
+
+</header>
+
     <h1>Girls</h1>
     <h2>Hello i'm Shahrizoda 👋🏻</h2>
     <h3>Hi i'm Munira</h3>
@@ -18,4 +49,5 @@
         <a href="">about</a>
     </footer>
 </body>
+
 </html>
